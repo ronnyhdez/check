@@ -1,0 +1,49 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\n\n\n\n\n",
+      "last_modified": "2022-05-26T17:25:56-06:00"
+    },
+    {
+      "path": "check.html",
+      "title": "Untitled",
+      "description": "A new article created using the Distill format.\n",
+      "author": [
+        {
+          "name": "Nora Jones",
+          "url": "https://example.com/norajones"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\nDistill is a publication format for scientific and technical writing,\nnative to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
+      "last_modified": "2022-05-26T17:25:56-06:00"
+    },
+    {
+      "path": "index.html",
+      "title": "YEG RUG",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\n\n\n\nFigure 1: Santa Rosa National Park view from the tower\n\n\n\nSite location\n\n\n\n\n\n\n",
+      "last_modified": "2022-05-26T17:25:57-06:00"
+    },
+    {
+      "path": "iris_eda.html",
+      "title": "Iris EDA",
+      "description": "A new article created using the Distill format.\n",
+      "author": [
+        {
+          "name": "Rony",
+          "url": "https://ronnyale.com"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\nImport data\n\n\n\nIris data exploration\n\nThis is a note\nEst aut voluptatum exercitationem explicabo. Laudantium ad aut ipsam\nillo ut necessitatibus exercitationem et. Error alias doloremque animi\ntempora animi cum laboriosam. Unde autem est odio et vel corporis. (Rogers et al.\n2020)\n\n\n\n\n\n\nRogers, Cheryl A., Jing M. Chen, Ting Zheng, Holly Croft, Alemu Gonsamo,\nXiangzhong Luo, and Ralf M. Staebler. 2020. “The\nResponse of Spectral Vegetation\nIndices and Solar‐Induced\nFluorescence to Changes in\nIllumination Intensity and\nGeometry in the Days Surrounding\nthe 2017 North American Solar\nEclipse.” Journal of Geophysical Research:\nBiogeosciences 125 (10). https://doi.org/10.1029/2020JG005774.\n\n\n\n\n",
+      "last_modified": "2022-05-26T17:25:59-06:00"
+    }
+  ],
+  "collections": []
+}

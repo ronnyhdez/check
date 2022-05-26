@@ -1,0 +1,26 @@
+name: "check"
+title: "YEG RUG"
+description: |
+  YEG RUG
+output_dir: "docs"
+exclude: ["*.csv"]
+theme: styles.css
+navbar:
+  logo:
+    image: images/logo.png
+    href: https://www.ronnyale.com
+  search: true
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "EDA"
+      menu:
+        - text: "Check"
+          href: check.html
+        - text: "Iris EDA"
+          href: iris_eda.html
+    - icon: fab fa-github
+      href: https://www.github.com/ronnyhdez
+output: distill::distill_article

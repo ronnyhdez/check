@@ -1,0 +1,53 @@
+---
+title: "Iris EDA"
+description: |
+  A new article created using the Distill format.
+author:
+  - name: Rony
+    url: https://ronnyale.com
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
+journal: "Journal of Data Science Software"
+doi: "10.23915/distill.00010"
+slug: jones2018distill
+citation_url: https://rstudio.github.io/distill
+date: "`r Sys.Date()`"
+bibliography: citation.bib
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(dplyr)
+library(readr)
+library(ggplot2)
+library(plotly)
+library(janitor)
+```
+
+# Import data
+
+```{r}
+iris_clean <- read_csv("iris_clean.csv")
+```
+
+## Iris data exploration
+
+<aside>
+This is a note
+</aside>
+
+Est aut voluptatum exercitationem explicabo. Laudantium ad aut ipsam illo ut necessitatibus exercitationem et. Error alias doloremque animi tempora animi cum laboriosam. Unde autem est odio et vel corporis. [@rogers_response_2020]
+
+```{r}
+plot <- iris_clean %>% 
+  ggplot(aes(x = petal_width, y = petal_length, color = species)) +
+  geom_point() +
+  scale_fill_viridis_d() +
+  theme_light()
+
+ggplotly(plot)
+```
+
+
+
